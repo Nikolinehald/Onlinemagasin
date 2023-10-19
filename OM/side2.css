@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap");
+.italic {
+  font-family: "PT Serif", serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+*,
+::after ::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.ff {
+  color: #dba7a7;
+  font-size: 30px;
+  font-family: "Laila", serif;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  float: left;
+  margin: -5px;
+  padding: 0;
+  font-family: "Old Standard TT", serif;
+}
+
+li a {
+  display: block;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+li a:hover {
+  background-color: #fcf7f7;
+  color: #da3e3e;
+}
+
+.active {
+  border-radius: 8px;
+  color: #ede6e6;
+  background-color: #ecbfbf;
+}
+ul {
+  /* position: fixed; */
+  top: 5;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.img-wrapper {
+  width: 20%;
+  margin: 2px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-translate {
+  transform: translateY(80px);
+}
+
+.logo-wrapper {
+  width: 100px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.ul_nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.overskrift {
+  font-size: 25px;
+  color: #dba7a7;
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}
+
+.motivation-wrapper {
+  width: 55%;
+}
+
+.im-wrapper {
+  width: 40%;
+  margin: 20px;
+  height: auto;
+}
+
+.im {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+.imm-wrapper {
+  width: 40%;
+  margin: 20px;
+  height: auto;
+}
+.imm {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.brødtekst {
+  font-size: 20px;
+  /* width: 65%; */
+  margin-top: 4px;
+  font-family: "BenchNine", sans-serif;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  display: flex;
+  padding: 16px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}

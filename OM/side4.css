@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@700&display=swap");
+
+.italic {
+  font-family: "PT Serif", serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.fed-skrift {
+  font-family: "BenchNine", sans-serif;
+  font-size: 21px;
+  margin: 0;
+  padding: 0;
+}
+*,
+::after ::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.ff {
+  color: #dba7a7;
+  font-size: 30px;
+  font-family: "Laila", serif;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  float: left;
+  margin: -5px;
+  padding: 0;
+  font-family: "Old Standard TT", serif;
+}
+
+li a {
+  display: block;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+li a:hover {
+  background-color: #fcf7f7;
+  color: #da3e3e;
+}
+
+.active {
+  border-radius: 8px;
+  color: #ede6e6;
+  background-color: #ecbfbf;
+}
+ul {
+  /* position: fixed; */
+  top: 5;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.img-wrapper {
+  width: 20%;
+  margin: 2px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-translate {
+  transform: translateY(80px);
+}
+
+.logo-wrapper {
+  width: 100px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.ul_nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 0;
+}
+.overskrift {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  color: #dba7a7;
+}
+
+.brødtekst {
+  font-size: 20px;
+  width: 90%;
+  font-family: "BenchNine", sans-serif;
+}
+
+.flex-coontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 0;
+}
+
+.tekstflex {
+  display: flex;
+  flex-direction: column;
+  width: 125%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 64px;
+}
+
+.løbebånd-wrapper {
+  width: 80%;
+  margin: 2px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 8px;
+}
+
+.løbebånd {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.pinktekst-wrapper {
+  width: 60%;
+  margin: 2px;
+  height: auto;
+  margin-top: 500px;
+  margin-right: 16px;
+}
+
+.pinktekst {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.billeder-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-left: 8px;
+  padding-right: 0;
+}
+.mig-wrapper {
+  width: 80%;
+  margin: 2px;
+  height: auto;
+  margin-top: 500px;
+  margin-right: 16px;
+}
+
+.mig {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.overskrift-split {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
